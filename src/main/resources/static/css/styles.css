@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+    color: lemonchiffon;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    width: 20%;
+    background-color: lightsteelblue;
+}
+.left > div {
+    background-color: lightsteelblue;
+    margin: 5px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.right {
+    width: 80%;
+    background-color: lightsteelblue;
+    color: black;
+}
+.right > div {
+    margin: 10px;
+}
+.list > li {
+    padding: 10px;
+}
+button {
+    width: 95%;
+    height: 100px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    border: 2px solid steelblue;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 10px;
+}
