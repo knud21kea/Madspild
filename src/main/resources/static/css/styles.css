@@ -33,7 +33,7 @@ button {
     width: 95%;
     height: 100px;
     border-radius: 10px;
-    background-color: cadetblue;
+    background-color: lightgrey;
     color: black;
     border: 2px solid steelblue;
 }
@@ -42,4 +42,8 @@ button {
     flex-direction: row;
     justify-content: space-around;
     font-size: 10px;
+}
+.event {
+    white-space: pre;
+    padding: 10px;
 }

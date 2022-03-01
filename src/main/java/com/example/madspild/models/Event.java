@@ -16,4 +16,20 @@ public class Event
         this.teaser = teaser;
         this.description = description;
     }
+
+    public String getTeaser()
+    {
+        return teaser;
+    }
+
+    public String getDescription()
+    {
+        return description;
+    }
+
+    @Override
+    public String toString()
+    {
+        return day + "/" + month + "/" + year +"\n" + teaser + "\n" + description + "\n\n";
+    }
 }

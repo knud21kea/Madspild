@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang=\"en\" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Madspild : Events</title>
@@ -18,7 +18,7 @@
             <button onclick="location.href='/links'">Links</button>
         </div>
         <div>
-            <button onclick="location.href='/events'">Events</button>
+            <button onclick="location.href='/events'">Mere at vide</button>
         </div>
     </div>
     <div class="right">
@@ -33,9 +33,17 @@
                     <input type="email" id="email" name="email">
                     <input type="submit">
                 </form>
+            </div>
+            <div>
+                <h3>Kommende Events:</h3>
+            <ul>
+                <li th:each="event: ${events}">
+                    <span class="event" th:text="${event}"></span>
+                </li>
+            </ul>
+            </div>
         </div>
     </div>
-</div>
 </div>
 <div class="footer">
     <p>(c) The Boys 2022</p>
