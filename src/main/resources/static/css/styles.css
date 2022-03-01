@@ -4,7 +4,7 @@ body {
 }
 .row {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 
 .left {
