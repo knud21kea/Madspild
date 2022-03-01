@@ -9,10 +9,10 @@ body {
 
 .left {
     width: 20%;
-    background-color: lightsteelblue;
+    background-color: white;
 }
 .left > div {
-    background-color: lightsteelblue;
+    background-color: white;
     margin: 5px;
     text-align: center;
     line-height: 100px;
@@ -20,7 +20,7 @@ body {
 
 .right {
     width: 80%;
-    background-color: lightsteelblue;
+    background-color: white;
     color: black;
 }
 .right > div {
@@ -33,7 +33,7 @@ button {
     width: 95%;
     height: 100px;
     border-radius: 10px;
-    background-color: white;
+    background-color: cadetblue;
     color: black;
     border: 2px solid steelblue;
 }
