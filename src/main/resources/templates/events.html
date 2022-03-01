@@ -31,14 +31,14 @@
                 <form>
                     <label for="email">Indtast din email:</label>
                     <input type="email" id="email" name="email">
-                    <input type="submit">
+                    <input type="submit" onclick="acknowlege()">
                 </form>
             </div>
             <div>
                 <h3>Kommende Events:</h3>
             <ul>
                 <li th:each="event: ${events}">
-                    <span class="event" th:text="${event}"></span>
+                    <div class="event" th:text="${event}"></div>
                 </li>
             </ul>
             </div>
@@ -50,5 +50,10 @@
     <p>Cookies og persondata</p>
     <p>Bla bla bla ...</p>
 </div>
+<script>
+    function acknowlege() {
+        alert("Tak.\nDu er tilmeldt nyhedsbrevet.");
+    }
+</script>
 </body>
 </html>

@@ -16,6 +16,7 @@ public class Timetable
     public void addEvents() {
         listOfEvents.add(new Event(22,3,2,"The Boys present...", "An event where a new website to help home users to reduce food waste is launched."));
         listOfEvents.add(new Event(22,3,4,"Workshop...", "A meeting hosted at KEA, where residents can talk to local representatives about how to reduce food waste in the home."));
+        listOfEvents.add(new Event(22,3,11,"Quiz night...", "Learn about food waste. Details to be confirmed."));
     }
 
     public ArrayList<Event> getListOfEvents() {
