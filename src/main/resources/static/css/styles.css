@@ -29,6 +29,10 @@ body {
 .list > li {
     padding: 10px;
 }
+
+.point {
+    cursor: pointer;
+}
 button {
     width: 95%;
     height: 100px;
