@@ -12,6 +12,7 @@ body {
     background-color: white;
 }
 .left > div {
+    curser: pointer;
     background-color: white;
     margin: 5px;
     text-align: center;
@@ -28,6 +29,10 @@ body {
 }
 .list > li {
     padding: 10px;
+}
+
+div {
+    cursor: pointer;
 }
 button {
     width: 95%;

@@ -14,9 +14,10 @@ public class Timetable
     }
 
     public void addEvents() {
-        listOfEvents.add(new Event(22,3,2,"The Boys present...", "An event where a new website to help home users to reduce food waste is launched."));
-        listOfEvents.add(new Event(22,3,4,"Workshop...", "A meeting hosted at KEA, where residents can talk to local representatives about how to reduce food waste in the home."));
-        listOfEvents.add(new Event(22,3,11,"Quiz night...", "Learn about food waste. Details to be confirmed."));
+        listOfEvents.add(new Event(22,3,2,"The Boys præsentere...", "En ny hjemmeside er oprettet til at hjælpe folk undgå madspild."));
+        listOfEvents.add(new Event(22,3,4,"Workshop...", "Et møde blev holdt på KEA, hvor befolkningen kunne diskutere med lokale repræsentanter om hvordan man kan reducere madspild derhjemme."));
+        listOfEvents.add(new Event(22,3,11,"Quiz-nat...", "Kom og lær mere om madspild, og få detaljerne helt på plads."));
+        listOfEvents.add(new Event(22,3,21,"Oplysningsdag...","d. 21 er madspilds-oplysningsdag! Vi holder frivilligt arbejde hvor folk kan komme og hjælpe med os med at stoppe madspild.\nMere information løbende.."));
     }
 
     public ArrayList<Event> getListOfEvents() {
