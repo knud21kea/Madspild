@@ -17,6 +17,8 @@ public class Event
         this.description = description;
     }
 
+
+
     public String getTeaser()
     {
         return teaser;
@@ -30,6 +32,6 @@ public class Event
     @Override
     public String toString()
     {
-        return day + "/" + month + "/" + year +"\n" + teaser + "\n" + description + "\n\n";
+        return "d. " + day + "/" + month + "/" + year +"\n";
     }
 }

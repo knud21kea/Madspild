@@ -37,8 +37,10 @@
             <div>
                 <h3>Kommende Events:</h3>
             <ul>
-                <li th:each="event: ${events}">
-                    <div class="event" th:text="${event}"></div>
+                <li class="event" th:each="event: ${events}">
+                    <span class="date" th:text="${event}"></span>
+                    <div class="teaser" th:text="${event.getTeaser()}"></div>
+                    <div class="description" th:text="${event.getDescription()}"></div>
                 </li>
             </ul>
             </div>
