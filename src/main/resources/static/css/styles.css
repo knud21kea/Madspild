@@ -63,3 +63,6 @@ button {
  .date {
      text-decoration: underline;
  }
+ .source {
+     font-size: 10px;
+ }
