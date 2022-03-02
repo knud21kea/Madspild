@@ -44,7 +44,18 @@ button {
     font-size: 10px;
 }
 .event {
-    white-space: pre;
-    padding: 10px;
     border: 1px solid steelblue;
 }
+.teaser {
+    white-space: pre;
+    font-weight: bold;
+    padding: 5px;
+
+}.description {
+     white-space: pre;
+     padding: 5px;
+     font-style: italic;
+ }
+ .date {
+     text-decoration: underline;
+ }
