@@ -6,7 +6,6 @@ body {
     display: flex;
     flex-direction: row;
 }
-
 .left {
     width: 20%;
     background-color: white;
@@ -29,7 +28,6 @@ body {
 .list > li {
     padding: 10px;
 }
-
 .point {
     cursor: pointer;
 }
